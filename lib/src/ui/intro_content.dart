@@ -24,7 +24,18 @@ class IntroContent extends StatelessWidget {
               )
           : null,
       child: Column(
+        mainAxisSize: MainAxisSize.max,
         children: [
+          // Expanded(
+          //   child: Container(
+          //     color: Colors.red,
+          //   ),
+          // ),
+          // Expanded(
+          //   child: Container(
+          //     color: Colors.red,
+          //   ),
+          // ),
           Padding(
             padding: page.decoration.titlePadding,
             child: _buildWidget(
